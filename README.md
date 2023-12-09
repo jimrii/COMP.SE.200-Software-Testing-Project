@@ -1,6 +1,10 @@
-# Student template
+# COMP.SE.200 Software Testing Project
 
 ## Purpose of this repository
+
+Software Testing course assignment 
+
+## Template information
 
 This is a project template for students participating in Software Testing course
 at Tampere University.
