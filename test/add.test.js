@@ -28,12 +28,12 @@ test("adds valid string representations of numbers", () => {
     expect(add("5", "5")).toBe(10);
 });
 
-test("return Nan when one or both of the parameters are arrays", () => {
+test("return NaN when one or both of the parameters are arrays", () => {
     expect(add(0, [0, 1, 2, 3])).toBe(NaN);
     expect(add([0, 1], [0, 1])).toBe(NaN);
 });
 
-test("return Nan when one or both of the parameters are objects", () => {
+test("return NaN when one or both of the parameters are objects", () => {
     const obj = { x: 1 };
     expect(add(1, obj)).toBe(NaN);
     expect(add(obj, obj)).toBe(NaN);

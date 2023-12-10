@@ -1,10 +1,10 @@
 import toString from "../src/toString"
 
-test("returns short string without modifying it", () => {
+test("returns a short string without modifying it", () => {
     expect(toString("foo")).toBe("foo");
 });
 
-test("returns long string without modifying it", () => {
+test("returns a long string without modifying it", () => {
     expect(toString("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."))
     .toBe("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 });
