@@ -35,10 +35,10 @@ test("converts booleans to strings", () => {
     expect(toString(false)).toBe("false");
 });
 
-test.skip("converts undefined to empty string", () => {
+test("converts undefined to empty string", () => {
     expect(toString(undefined)).toBe("");
 });
 
-test.skip("converts null to empty string", () => {
+test("converts null to empty string", () => {
     expect(toString(null)).toBe("");
 });

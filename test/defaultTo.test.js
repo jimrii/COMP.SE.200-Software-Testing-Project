@@ -35,7 +35,7 @@ test('returns original value if not empty and a number', () => {
 
 // The following test cases ChatGPT did not cover
 
-test.skip('returns default value if NaN', () => {
+test('returns default value if NaN', () => {
     const result = defaultTo(NaN, 'Default');
     expect(result).toBe('Default');
 });
