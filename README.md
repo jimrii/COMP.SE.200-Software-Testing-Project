@@ -1,3 +1,5 @@
+[![Coverage Status](https://coveralls.io/repos/github/jimrii/COMP.SE.200-Software-Testing-Project/badge.svg?branch=main)](https://coveralls.io/github/jimrii/COMP.SE.200-Software-Testing-Project?branch=main)
+
 # COMP.SE.200 Software Testing Project
 
 ## Purpose of this repository
