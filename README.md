@@ -4,6 +4,15 @@
 
 Software Testing course assignment 
 
+## Running tests locally
+
+To run all tests navigate to project root directory and run `npm test`.
+
+To run a specific test file navigate to project root directory and run `npm test 'testName'` e.g. `npm test toInteger`.
+
+Coverage reports are generated in the `coverage` directory in project root. The full coverage report can be viewed by 
+opening the `index.html` file found in `coverage/lcov-report` in browser. 
+
 ## Template information
 
 This is a project template for students participating in Software Testing course
